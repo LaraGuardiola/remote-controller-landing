@@ -3,20 +3,7 @@
         <div class="hero-bg"></div>
         <div class="container hero-content">
             <div class="hero-icon" aria-hidden="true">
-                <svg
-                    viewBox="0 0 48 48"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
-                    <rect x="8" y="4" width="32" height="40" rx="4" />
-                    <circle cx="24" cy="30" r="4" />
-                    <rect x="16" y="12" width="16" height="2" rx="1" />
-                    <rect x="16" y="17" width="16" height="2" rx="1" />
-                    <rect x="16" y="22" width="6" height="2" rx="1" />
-                </svg>
+                <img :src="heroIcon" alt="Remote Controller" class="hero-icon-img" />
             </div>
             <h1 class="hero-title">Remote Controller</h1>
             <p class="hero-subtitle">
@@ -67,6 +54,8 @@
 </template>
 
 <script setup lang="ts">
+import heroIcon from '../assets/remote-control.png'
+
 const exeUrl: string =
     "https://github.com/LaraGuardiola/remote-controller/releases/download/1.0.0/remote-controller.exe";
 const apkUrl: string =
