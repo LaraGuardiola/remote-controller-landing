@@ -22,12 +22,12 @@
   "connectSubtitle": "Sigue estos sencillos pasos para empezar a controlar tu PC",
   "step1Title": "Instalar y Ejecutar",
   "step1Desc": "Descarga el instalador de Windows y ejecuta la aplicación del servidor en tu PC.",
-  "step2Title": "Anota la IP",
-  "step2Desc": "El servidor muestra la dirección IP y el puerto de tu PC en la ventana del terminal.",
+  "step2Title": "Instala la App",
+  "step2Desc": "Descarga Remote Controller desde Play Store e instálalo en tu dispositivo Android.",
   "step3Title": "Instala la App",
   "step3Desc": "Instala el APK de Remote Controller en tu dispositivo Android.",
-  "step4Title": "Conectar",
-  "step4Desc": "Abre la app, ingresa la dirección IP que aparece en el terminal y ya estás listo.",
+  "step4Title": "Conéctate y Disfruta",
+  "step4Desc": "Abre la app, espera la conexión automática y disfruta controlando tu PC.",
   "portInfo": "Puerto predeterminado: 5173",
   "footerText": "Remote Controller © 2026"
 }
