@@ -5,7 +5,7 @@
     <HowToConnect />
     <footer class="footer">
       <div class="container">
-        <p>Remote Controller &copy; 2026</p>
+        <p data-i18n="footerText">Remote Controller &copy; 2026</p>
       </div>
     </footer>
   </div>
