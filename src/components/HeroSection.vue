@@ -11,8 +11,6 @@
                 <a
                     :href="exeUrl"
                     class="download-btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
                 >
                     <svg
                         class="platform-icon"
@@ -28,8 +26,6 @@
                 <a
                     :href="apkUrl"
                     class="download-btn download-btn--secondary"
-                    target="_blank"
-                    rel="noopener noreferrer"
                 >
                     <svg
                         class="platform-icon"
